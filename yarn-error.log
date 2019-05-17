@@ -1,0 +1,44 @@
+Arguments: 
+  /Users/coreycosman/.nvm/versions/node/v10.4.0/bin/node /Users/coreycosman/.yarn/bin/yarn.js init
+
+PATH: 
+  /Users/coreycosman/.yarn/bin:/Users/coreycosman/.config/yarn/global/node_modules/.bin:/bin:/Users/coreycosman/.rbenv/shims:/Users/coreycosman/.nvm/versions/node/v10.4.0/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Users/coreycosman/.rvm/bin:~/.yarn:/Users/coreycosman/Library/Android/sdk/tools:/Users/coreycosman/Library/Android/sdk/platform-tools:/Users/coreycosman/.fzf/bin
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/Users/coreycosman/.yarn/lib/cli.js:125801:13)
+      at Interface.emit (events.js:182:13)
+      at Interface._ttyWrite (readline.js:783:16)
+      at ReadStream.onkeypress (readline.js:168:10)
+      at ReadStream.emit (events.js:182:13)
+      at emitKeys (internal/readline.js:422:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1022:36)
+      at ReadStream.emit (events.js:182:13)
+      at addChunk (_stream_readable.js:283:12)
+
+npm manifest: 
+  {
+    "name": "node_",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+      "lodash": "^4.17.11"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
